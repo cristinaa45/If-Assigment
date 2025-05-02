@@ -6,7 +6,7 @@ document.getElementById("checkButton").addEventListener("click", function() {
   if (age <=15) {
     resultText.innerText = "You cannot drive";
     resultText.style.color = "red"; // change color
-    resultImage.src = "YOUR_BICYCLE_IMAGE_LINK_HERE";
+    resultImage.src = "https://www.prioritybicycles.com/cdn/shop/products/L_trainDisk8Speed_hero_1of1.jpg?v=1708061515";
   } else if (age >=16 && age <=24) {
     resultText.innerText = "You can drive";
     resultText.style.color = "green";
