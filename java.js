@@ -6,15 +6,14 @@ document.getElementById("checkButton").addEventListener("click", function() {
   if (age <=15) {
     resultText.innerText = "You cannot drive";
     resultText.style.color = "red"; // change color
-    resultImage.src = "https://www.prioritybicycles.com/cdn/shop/products/L_trainDisk8Speed_hero_1of1.jpg?v=1708061515";
+    resultImage.src = "bicycle.webp";
   } else if (age >=16 && age <=24) {
     resultText.innerText = "You can drive";
     resultText.style.color = "green";
-    resultImage.src = "YOUR_CAR_IMAGE_LINK_HERE";
+     resultImage.src = "car.png";
   } else if (age >= 25) {
     resultText.innerText = "You can drive and rent a car";
     resultText.style.color = "green";
-      resultImage.src = "https://static.independent.co.uk/2025/02/18/10/40/Kia-EV6.png";
   }
 });
 
